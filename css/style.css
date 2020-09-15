@@ -23,8 +23,7 @@ img{
     /*Set images on their own line*/
     display: block;
     /*center images*/
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     height: auto;
     width: 525px;
     float: none;
@@ -65,7 +64,8 @@ div{
     text-align: left;
 }
 
-footer p{
+footer p 
+{   padding: 0;
     text-align: right;
     padding-bottom: 10px;
     padding-right: 10px;
